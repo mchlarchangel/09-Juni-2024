@@ -1,0 +1,637 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Happy Birthday</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>Landing Page with Scroll-Driven Animations</title>
+
+        <link href="https://cdn.jsdelivr.net/npm/remixicon@3.5.0/fonts/remixicon.css" rel="stylesheet" />
+    </head>
+
+    <body>
+        <nav class="Navbar">
+            <div class="container">
+                <div class="Logo">09 JUNI 2024.</div>
+
+                <div id="menu" class="menu">
+                    <header class="inline">
+                        <div class="Logo"></div>
+                        <button id="closeMenuBtn" title="Close Menu" aria-label="Close Menu" class="NavButton">
+                            <i class="ri-close-line"></i>
+                        </button>
+                    </header>
+
+                    <!-- <a href="#" class="NavLink">Home</a>
+                    <a href="#schedules" class="NavLink">Schedules</a>
+                    <a href="#plans" class="NavLink">Plans</a>
+                    <a href="#about" class="NavLink">About</a> -->
+                </div>
+
+                <button id="openMenuBtn" title="Open Menu" aria-label="Open Menu" class="NavButton">
+                    <i class="ri-menu-line"></i>
+                </button>
+            </div>
+        </nav>
+        <main>
+            <section id="home">
+                <div class="hero">
+                    <div class="visual">
+                        <picture>
+                            <source srcset="
+                            https://raw.githubusercontent.com/mchlarchangel/09-Juny-2024/main/assets/hero.webp
+                    " type="image/avif" media="(width > 1024px)" />
+                            <source srcset="
+                            https://raw.githubusercontent.com/mchlarchangel/09-Juny-2024/main/assets/hero-mobile.webp
+                    " type="image/avif" />
+                            <source srcset="
+                            https://raw.githubusercontent.com/mchlarchangel/09-Juny-2024/main/assets/hero.webp
+                    " media="(width > 1024px)" type="image/webp" />
+                            <img src="https://raw.githubusercontent.com/mchlarchangel/09-Juny-2024/main/assets/hero-mobile.webp"
+                                alt="hero" />
+                        </picture>
+                    </div>
+
+                    <div class="content">
+                        <h1>IT'S A NEW DAY</h1>
+                        <div class="wrapper">
+                            <a href="#discover" class="LinkButton Primary"> READ MORE </a>
+                        </div>
+                    </div>
+                </div>
+
+                <div id="discover" class="fold">
+                    <div class="subject">
+                        <br>
+                        <br>
+                        <br>
+                        <p>
+                            Happy Birthday!,
+                            <span style="color: var(--brand-1)">Wishing you a day filled with love, joy, and all your favorite things.</span>
+                            May this year bring you endless happiness and success. <br> WE ALL LOVE YOU ❤️
+                        </p>
+                    </div>
+                </div>
+            </section>
+
+            <section id="schedules" class="schedule">
+                <div class="subject">
+                    <div class="container">
+                        <div class="table-wrapper">
+                            <h2>Weekly Schedule</h2>
+                            <table>
+                                <tr>
+                                    <th>Day</th>
+                                    <th>Scheduled Activities</th>
+                                    <th>Time</th>
+                                </tr>
+                                <tr>
+                                    <td>Monday</td>
+                                    <td>Loving You</td>
+                                    <td>12:00 AM - 11:59 AM</td>
+                                </tr>
+                                <tr>
+                                    <td>Tuesday</td>
+                                    <td>Loving You</td>
+                                    <td>12:00 AM - 11:59 AM</td>
+                                </tr>
+                                <tr>
+                                    <td>Wednesday</td>
+                                    <td>Loving You</td>
+                                    <td>12:00 AM - 11:59 AM</td>
+                                </tr>
+                                <tr>
+                                    <td>Thursday</td>
+                                    <td>Loving You</td>
+                                    <td>12:00 AM - 11:59 AM</td>
+                                </tr>
+                                <tr>
+                                    <td>Friday</td>
+                                    <td>Loving You</td>
+                                    <td>12:00 AM - 11:59 AM</td>
+                                </tr>
+                                <tr>
+                                    <td>Saturday</td>
+                                    <td>Loving You</td>
+                                    <td>12:00 AM - 11:59 AM</td>
+                                </tr>
+                                <tr>
+                                    <td>Sunday</td>
+                                    <td>Loving You</td>
+                                    <td>12:00 AM - 11:59 AM</td>
+                                </tr>
+                            </table>
+                        </div>
+                        <div class="table-wrapper">
+                            <h2>7 Best Activities</h2>
+                            <table>
+                                <tr>
+                                    <th>Activities</th>
+                                    <th>Duration</th>
+                                </tr>
+                                <tr>
+                                    <td>Loving You</td>
+                                    <td>24 Hours</td>
+                                </tr>
+                                <tr>
+                                    <td>Loving You</td>
+                                    <td>24 Hours</td>
+                                </tr>
+                                <tr>
+                                    <td>Loving You</td>
+                                    <td>24 Hours</td>
+                                </tr>
+                                <tr>
+                                    <td>Loving You</td>
+                                    <td>24 Hours</td>
+                                </tr>
+                                <tr>
+                                    <td>Loving You</td>
+                                    <td>24 Hours</td>
+                                </tr>
+                                <tr>
+                                    <td>Loving You</td>
+                                    <td>24 Hours</td>
+                                </tr>
+                                <tr>
+                                    <td>Loving You</td>
+                                    <td>24 Hours</td>
+                                </tr>
+                            </table>
+                        </div>
+                    </div>
+                </div>
+                <div class="showcase">
+                    <video autoplay loop muted
+                        poster="https://raw.githubusercontent.com/mchlarchangel/09-Juny-2024/main/assets/poster.webp"
+                        role="none">
+                        <!-- <source
+                            src="https://raw.githubusercontent.com/mobalti/open-props-interfaces/main/landing-page-with-scroll-driven/assets/demo.mp4"
+                            type="video/mp4" /> -->
+                    </video>
+                    <img src="https://raw.githubusercontent.com/mchlarchangel/09-Juny-2024/main/assets/peter.png"
+                        alt="1 PETER 5:7" />
+                </div>
+            </section>
+
+            <section id="plans" class="cards">
+                <h2>3 best bible verses</h2>
+                <div class="subject">
+                    <div class="container">
+                        <div class="Card">
+                            <div>
+                                <p>Kalau kamu merasa dirimu gak pantes di hadapan Tuhan</p>
+                            </div>
+                            <p></p>
+                            <div>
+                                <h2>2 PETRUS 3:9</h2>
+                                <p>"Tuhan tidak lalai menepati janji-Nya, sekalipun ada orang yang menganggapnya sebagai kelalaian, tetapi Ia sabar terhadap kamu, karena Ia menghendaki supaya jangan ada yang binasa, melainkan supaya semua orang berbalik dan bertobat."</p>
+                            </div>
+                        </div>
+                        <div class="Card">
+                            <div>
+                                <p>Jadiin renungan buat punya prinsip bukan hanya iman yang besar, tapi iman yang benar</p>
+                            </div>
+                            <div>
+                                <h2>Daniel 3:17-18</h2>
+                                <p>"Jika Allah kami yang kami puja sanggup melepaskan kami, maka Ia akan melepaskan kami dari perapian yang menyala-nyala itu, dan dari dalam tanganmu, ya raja; tetapi seandainya tidak, hendaklah tuanku mengetahui, ya raja, bahwa kami tidak akan memuja dewa tuanku, dan tidak akan menyembah patung emas yang tuanku dirikan itu."</p>
+                            </div>
+                        </div>
+                        <div class="Card">
+                            <div>
+                                <p>Buat jadi reminder untuk kamu jangan sombong, jangan egois, tetap rendah hati</p>
+                            </div>
+                            <p></p>
+                            <div>
+                                <h2>Roma 12:16</h2>
+                                <p>"Hendaklah kamu sehati sepikir dalam hidupmu bersama; janganlah kamu memikirkan perkara-perkara yang tinggi, tetapi arahkanlah dirimu kepada perkara-perkara yang sederhana. Janganlah menganggap dirimu pandai!"</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            
+
+            <section id="about" class="about">
+                <br>
+                <br>
+                <br>
+                <br>
+                <br>
+                <br>
+                <br>
+                <br>
+                <br>
+                <br>
+                <br>
+                <br>
+                <br>
+                <br>
+                <br>
+                <br>
+                <br>
+                <br>
+                <br>
+                <br>
+                <h2>Haloo Sayang</h2>
+                <br>
+                <br>
+                <br>
+                <br>
+                <br>
+                <br>
+                <br>
+                <br>
+                <br>
+                <br>
+                <br>
+                <br>
+                <br>
+                <br>
+                <br>
+                <br>
+                <br>
+                <br>
+                <br>
+                <br>
+                <h2>Aku gak tau, aku perlu ngomong ini atau engga</h2>
+                <br>
+                <br>
+                <br>
+                <br>
+                <br>
+                <br>
+                <br>
+                <br>
+                <br>
+                <br>
+                <br>
+                <br>
+                <br>
+                <br>
+                <br>
+                <br>
+                <br>
+                <br>
+                <br>
+                <br>
+                <h2>aku gak tau, kamu juga butuh ini atau engga</h2>
+                <br>
+                <br>
+                <br>
+                <br>
+                <br>
+                <br>
+                <br>
+                <br>
+                <br>
+                <br>
+                <br>
+                <br>
+                <br>
+                <br>
+                <br>
+                <br>
+                <br>
+                <br>
+                <br>
+                <br>
+                <h2>yaaa... ini untuk kamu</h2>
+                <br>
+                <br>
+                <br>
+                <br>
+                <br>
+                <br>
+                <br>
+                <br>
+                <br>
+                <br>
+                <br>
+                <br>
+                <br>
+                <br>
+                <br>
+                <br>
+                <br>
+                <br>
+                <br>
+                <br>
+                <h2>daripada mikir ini:</h2>
+                <p>"aku ngerasa aku lambat banget"</p>
+                <br>
+                <h2>mending mikir ini:</h2>
+                <p>"progress yang lambat juga tetep progress, aku pasti bisa"</p>
+                <br>
+                <br>
+                <br>
+                <br>
+                <br>
+                <br>
+                <br>
+                <br>
+                <br>
+                <br>
+                <br>
+                <br>
+                <br>
+                <br>
+                <br>
+                <br>
+                <br>
+                <br>
+                <br>
+                <br>
+                <h2>daripada mikir ini:</h2>
+                <p>"aku bener-bener ga productive hari ini"</p>
+                <br>
+                <h2>mending mikir ini:</h2>
+                <p>"ga setiap hari itu sama, aku uda <br>ngelakuin yang terbaik hari ini dan itu cukup"</p>
+                <br>
+                <br>
+                <br>
+                <br>
+                <br>
+                <br>
+                <br>
+                <br>
+                <br>
+                <br>
+                <br>
+                <br>
+                <br>
+                <br>
+                <br>
+                <br>
+                <br>
+                <br>
+                <br>
+                <br>
+                <h2>daripada mikir ini:</h2>
+                <p>"selalu aja semuanya salah"</p>
+                <br>
+                <h2>mending mikir ini:</h2>
+                <p>"apa yaa satu hal yang hari ini berjalan dengan baik"</p>
+                <br>
+                <br>
+                <br>
+                <br>
+                <br>
+                <br>
+                <br>
+                <br>
+                <br>
+                <br>
+                <br>
+                <br>
+                <br>
+                <br>
+                <br>
+                <br>
+                <br>
+                <br>
+                <br>
+                <br>
+                <h2>kalau aku gagal gimana?</h2>
+                <br>
+                <br>
+                <br>
+                <br>
+                <br>
+                <br>
+                <br>
+                <br>
+                <br>
+                <br>
+                <br>
+                <br>
+                <br>
+                <br>
+                <br>
+                <br>
+                <br>
+                <br>
+                <br>
+                <br>
+                <h2>tapi ya tapi.. coba pikir deh</h2>
+                <br>
+                <br>
+                <br>
+                <br>
+                <br>
+                <br>
+                <br>
+                <br>
+                <br>
+                <br>
+                <br>
+                <br>
+                <br>
+                <br>
+                <br>
+                <br>
+                <br>
+                <br>
+                <br>
+                <br>
+                <h2>gimana kalau kamu berhasil?</h2>
+                <br>
+                <br>
+                <br>
+                <br>
+                <br>
+                <br>
+                <br>
+                <br>
+                <br>
+                <br>
+                <br>
+                <br>
+                <br>
+                <br>
+                <br>
+                <br>
+                <br>
+                <br>
+                <br>
+                <br>
+                <h2>everyone has their own struggle</h2>
+                <br>
+                <br>
+                <br>
+                <br>
+                <br>
+                <br>
+                <br>
+                <br>
+                <br>
+                <br>
+                <br>
+                <br>
+                <br>
+                <br>
+                <br>
+                <br>
+                <br>
+                <br>
+                <br>
+                <br>
+                <h2>semua orang sedang berjuang...</h2>
+                <br>
+                <br>
+                <br>
+                <br>
+                <br>
+                <br>
+                <br>
+                <br>
+                <br>
+                <br>
+                <br>
+                <br>
+                <br>
+                <br>
+                <br>
+                <br>
+                <br>
+                <br>
+                <br>
+                <br>
+                <h2>jadilah manusia yang baik, be kind kita semua gak tau apa yang orang sebelah kita lewatin</h2>
+                <br>
+                <br>
+                <br>
+                <br>
+                <br>
+                <br>
+                <br>
+                <br>
+                <br>
+                <br>
+                <br>
+                <br>
+                <br>
+                <br>
+                <br>
+                <br>
+                <br>
+                <br>
+                <br>
+                <br>
+                <h2>mungkin apa yang dia lakukan adalah semua energy terakhir yang dia punya untuk berjuang</h2>
+                <br>
+                <br>
+                <br>
+                <br>
+                <br>
+                <br>
+                <br>
+                <br>
+                <br>
+                <br>
+                <br>
+                <br>
+                <br>
+                <br>
+                <br>
+                <br>
+                <br>
+                <br>
+                <br>
+                <br>
+                <h2>kita gak pernah tau...</h2>
+                <br>
+                <br>
+                <br>
+                <br>
+                <br>
+                <br>
+                <br>
+                <br>
+                <br>
+                <br>
+                <br>
+                <br>
+                <br>
+                <br>
+                <br>
+                <br>
+                <br>
+                <br>
+                <br>
+                <br>
+                <h2>your little reminder that you are</h2>
+                <br>
+                <br>
+                <br>
+                <br>
+                <br>
+                <br>
+                <br>
+                <br>
+                <br>
+                <br>
+                <br>
+                <br>
+                <br>
+                <br>
+                <br>
+                <br>
+                <br>
+                <br>
+                <br>
+                <br>
+                <p>dibutuhkan <br>wonderful  <br>berbakat <br>berharga <br>disayang <br>bersinar <br>menarik <br>penting <br>special <br>worthy <br>cantik <br>unik <br>lucu </p>
+                <br>
+                <br>
+                <br>
+                <br>
+                <br>
+                <br>
+                <br>
+                <br>
+                <br>
+                <br>
+                <br>
+                <br>
+                <br>
+                <br>
+                <br>
+                <br>
+                <br>
+                <br>
+                <br>
+                <br>
+                <div id="target-word">love</div>
+                <br>
+                <br>
+                <br>
+                <br>
+                <br>
+                <br>
+                <br>
+                <br>
+                <br>
+                <footer>
+                    <p>                        
+                        <a href="https://image.popbela.com/content-images/post/20221116/untitled-design-2022-11-14t131918821-0919b47fc391fba959e894a221626b18-f1ebdc9b6f09efb36b51d7628b4ec726.png?width=750&format=webp&w=750"
+                            style="color: var(--brand-1); text-decoration: none">CLICK ME</a>
+                    </p>
+                </footer>
+            </section>
+        </main>
+
+    </body>
+    <script src="sacript.js"></script>
+</body>
+
+</html>
